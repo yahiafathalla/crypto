@@ -1,0 +1,44 @@
+type User @model(mutations: null) {
+  id: ID!
+  name: String
+  email: String!
+  image: String
+  networth: Float!
+  portofolliocoins: [Portofoliocoin]
+    @connection(keyName: "byuser", fields: ["id"])
+}
+
+type Portofoliocoin
+  @model(mutations: null)
+  @key(name: "byuser", fields: ["Userid"]) {
+  id: ID!
+  Userid: ID!
+  user: User @connection(fields: ["Userid"])
+  amount: Float!
+  Coinid: ID!
+  coin: Coins @connection(fields: ["Coinid"])
+}
+
+type Coins @model(mutations: null) {
+  id: ID!
+  Cgid: ID!
+
+  name: String!
+  symbol: String!
+  image: String
+  cuurentprice: Float!
+  valuechange1d: Float!
+  valuechange7d: Float!
+  valuechange1h: Float!
+  pricehistorystring: String
+}
+
+type Mutation {
+  chagecoins(
+    Coinid: ID!
+    isbuy: Boolean!
+    amount: Float!
+    egyportofoliocoinid: ID
+    coinsofportofolioncoinid: ID
+  ): Boolean @function(name: "Changecoin-${env}")
+}

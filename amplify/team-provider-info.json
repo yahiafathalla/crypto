@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-exchangecoins-dev-63449-authRole",
+      "UnauthRoleArn": "arn:aws:iam::630192539285:role/amplify-exchangecoins-dev-63449-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::630192539285:role/amplify-exchangecoins-dev-63449-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-exchangecoins-dev-63449-deployment",
+      "UnauthRoleName": "amplify-exchangecoins-dev-63449-unauthRole",
+      "StackName": "amplify-exchangecoins-dev-63449",
+      "StackId": "arn:aws:cloudformation:us-east-2:630192539285:stack/amplify-exchangecoins-dev-63449/17ac6510-9e6d-11eb-ad98-0a9f3c449e8c",
+      "AmplifyAppId": "dijbenuj8ervu"
+    },
+    "categories": {
+      "function": {
+        "Changecoin": {
+          "deploymentBucketName": "amplify-exchangecoins-dev-63449-deployment",
+          "s3Key": "amplify-builds/Changecoin-3958426856716e774456-build.zip"
+        },
+        "coinsfromapi": {
+          "deploymentBucketName": "amplify-exchangecoins-dev-63449-deployment",
+          "s3Key": "amplify-builds/coinsfromapi-524871334b7268416e43-build.zip"
+        },
+        "exchangecoins67c1bbc167c1bbc1PostConfirmation": {
+          "deploymentBucketName": "amplify-exchangecoins-dev-63449-deployment",
+          "s3Key": "amplify-builds/exchangecoins67c1bbc167c1bbc1PostConfirmation-365a4f4b626932346254-build.zip"
+        },
+        "Done": {
+          "deploymentBucketName": "amplify-exchangecoins-dev-63449-deployment",
+          "s3Key": "amplify-builds/Done-71552b504c4f6c4f4c79-build.zip"
+        }
+      },
+      "auth": {
+        "exchangecoins67c1bbc167c1bbc1": {
+          "googleClientId": "445031501677-htvdbq0ntqjik6t6k90581vmaa5ttqms.apps.googleusercontent.com",
+          "facebookAppId": "898125457428224"
+        }
+      }
+    }
+  }
+}

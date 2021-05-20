@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "api": {
+      "exchangecoins": [
+        "Query",
+        "Mutation",
+        "Subscription"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

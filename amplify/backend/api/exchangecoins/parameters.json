@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "exchangecoins",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authexchangecoins67c1bbc167c1bbc1",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

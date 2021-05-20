@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "exchangecoins67c1bbc167c1bbc1",
+  "functionName": "exchangecoins67c1bbc167c1bbc1PostConfirmation",
+  "resourceName": "exchangecoins67c1bbc167c1bbc1PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "/home/yehia/.nvm/versions/node/v14.5.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-category-auth/provider-utils/awscloudformation/triggers/PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "exchangecoins67c1bbc167c1bbc1PostConfirmation",
+  "skipEdit": true,
+  "enableCors": false
+}

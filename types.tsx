@@ -1,11 +1,17 @@
 export type RootStackParamList = {
   Root: undefined;
   NotFound: undefined;
+  coins: undefined;
+  Coinexhange: undefined;
+  Welcome: undefined;
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Home: undefined;
+  Profile: undefined;
+  Rank: undefined;
+  Portofolio: undefined;
+  Market: undefined;
 };
 
 export type TabOneParamList = {
